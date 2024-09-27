@@ -128,15 +128,39 @@ li {
     color: #e9ecef;
 }
 
+@media (max-width: 1024px) {
+    
+    .container { 
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card p {
+        bottom: -75px; /* Inicialmente fora da visão */
+    }
+
+    .card:hover img {
+        transform: translateY(-75px);
+        /* Sobe a imagem ao passar o mouse */
+    }
+
+}
+
 @media (max-width: 540px) {
 
     .topo {
-        height: 4rem;
+        height: 5rem;
     }
     
     .topo img {
         width: 20%;
         margin-left: 1rem;
+    }
+
+    .container {
+        height: auto;
     }
     
     ul {
