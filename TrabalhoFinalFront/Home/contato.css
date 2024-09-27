@@ -40,11 +40,15 @@ li {
     transition: font-size 0.3s ease;
 }
 
-.home {
+.home:hover {
     font-size: 2rem;
 }
 
-.sobre:hover, .contato:hover {
+.sobre {
+font-size: 2rem;
+} 
+
+.contato:hover {
     font-size: 2rem;
 }
 
@@ -65,6 +69,15 @@ li {
     background-size: cover; 
     opacity: 0.5; 
     z-index: -1;
+}
+
+.container h1, h2 {
+    color:#212529;
+    text-shadow: #212529 0px 5px 15px;
+}
+
+.container p {
+    color:#212529;
 }
 
 form {
@@ -90,16 +103,20 @@ input, textarea {
 }
 
 button {
-    background-color: #007bff;
-    color: #ffffff;
+    background-color: #6c757d;
+    color: #e9ecef;
+    font-weight: bold;
     padding: 0.5rem 1rem;
-    border: none;
+    border: 2px, solid #212529;
     border-radius: 4px;
+    box-shadow: 2px 2px 4px #212529;
+    transition: font-size 0.3s ease;
     cursor: pointer;
+    
 }
 
 button:hover {
-    background-color: #0056b3;
+    transform: scale(1.1);
 }
 
 .rodape {
@@ -114,15 +131,16 @@ button:hover {
 }
 
 @media (max-width: 540px) {
+
     .topo {
         height: 4rem;
     }
-
+    
     .topo img {
         width: 20%;
         margin-left: 1rem;
     }
-
+    
     ul {
         font-size: 0.7rem;
         margin-right: 1rem;
@@ -132,11 +150,22 @@ button:hover {
         margin-left: 1.3px;
     }
 
-    .home {
+    .sobre {
         font-size: 0.9rem;
     }
 
-    .sobre:hover, .contato:hover {
+    .home:hover {
         font-size: 0.9rem;
     }
+
+    .contato:hover {
+        font-size: 0.9rem;
+    }
+
+    .rodape {
+        height: auto;
+        font-size: 0.6rem;
+        padding-left: 1rem;
+    }
+
 }
