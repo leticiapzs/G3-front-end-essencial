@@ -1,0 +1,346 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.topo {
+    width: 100%;
+    height: 10rem;
+    background-color: #343a40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #212529;
+    box-shadow: 0 4px 6px #343a40;
+}
+
+.topo img {
+    width: 15%;
+    margin-left: 2.5rem;
+}
+
+ul {
+    margin-right: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e9ecef;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+}
+
+.home:hover {
+    font-size: 2rem;
+}
+
+.sobre:hover {
+    font-size: 2rem;
+}
+
+.contato {
+    font-size: 2rem;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/bgSiteDesfoque.png');
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.contactar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    background-color: #212529;
+    padding: 3rem;
+    padding-left: 0;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contactar-esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+.contactar-esquerda h1,
+h2 {
+    color: #e9ecef;
+}
+
+.contactar-esquerda p {
+    color: #e9ecef;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.facebook {
+    display: flex;
+    align-items: center;
+}
+
+.facebook img {
+    width: 55px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+}
+
+.instagram img {
+    width: 45px;
+    height: auto;
+    margin-right: 1rem;
+    margin-left: 1.3rem;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #343a40;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: #212529 0px 5px 15px;
+    width: 50%;
+    height: 80%;
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 1rem;
+    color: #e9ecef;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #212529;
+    background-color: #495057;
+    color: #e9ecef;
+}
+
+button {
+    background-color: #6c757d;
+    color: #e9ecef;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: 2px, solid #212529;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px #212529;
+    transition: font-size 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.rodape {
+    height: auto;
+    background-color: #343a40;
+    border-top: 3px solid #212529;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    padding-left: 2.5rem;
+    color: #e9ecef;
+}
+
+@media (max-width: 1024px) {
+
+    .topo {
+        height: 8rem;
+    }
+
+    .contactar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .contactar-esquerda {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .contactar-esquerda h1,
+    h2 {
+        font-size: 2rem;
+    }
+
+    .contactar-esquerda p {
+        font-size: 1.5rem;
+    }
+
+    .facebook img {
+        width: 1.2rem;
+    }
+
+    .instagram img {
+        width: 1rem;
+        height: auto;
+        margin-right: 1rem;
+        margin-left: 0.2rem;
+    }
+
+    .rodape {
+        height: auto;
+        font-size: 0.6rem;
+        padding-left: 1rem;
+    }
+
+}
+
+@media (max-width: 540px) {
+
+    .topo {
+        height: 4rem;
+    }
+
+    .topo img {
+        margin-left: 1rem;
+    }
+
+    ul {
+        font-size: 0.7rem;
+        margin-right: 1rem;
+    }
+
+    li {
+        margin-left: 1.3px;
+    }
+
+    .sobre:hover {
+        font-size: 0.9rem;
+    }
+
+    .home:hover {
+        font-size: 0.9rem;
+    }
+
+    .contato {
+        font-size: 0.9rem;
+    }
+
+    .contactar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+        padding-top: 1rem;
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        font-size: 0.8rem;
+
+    }
+
+    .contactar-esquerda {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .contactar-esquerda h1,
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .contactar-esquerda p {
+        font-size: 0.7rem;
+    }
+
+    .facebook img {
+        width: 1.2rem;
+    }
+
+    .instagram img {
+        width: 1rem;
+        height: auto;
+        margin-right: 1rem;
+        margin-left: 0.2rem;
+    }
+
+    .rodape {
+        height: auto;
+        font-size: 0.6rem;
+        padding-left: 1rem;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1024px) and (min-height: 600px) and (max-height: 600px) {
+   
+    .contactar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        background-color: #212529;
+        padding: 3rem;
+        padding-left: 2rem;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
+
+    .contactar-esquerda{
+        width: 60%;
+        margin-right: 2rem;
+    }
+
+    .contactar-esquerda p {
+        font-size: 1rem;
+    }
+}

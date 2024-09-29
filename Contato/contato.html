@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./contato.css">
+</head>
+
+<body>
+    <header class="topo">
+        <img src="../images/AsMelhoresSeries.png" alt="Logo 'As melhores séries na nossa opinião'">
+        <nav class="navbar">
+            <ul>
+                <li class="home"><a href="../Home/index.html">HOME</a></li>
+                <li class="sobre"><a href="sobre.html">SOBRE</a></li>
+                <li class="contato"><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="contactar">
+            <div class="contactar-esquerda">
+                <h1>CONTACTE-NOS</h1>
+                <p>Estamos aqui para ajudar! Se você tiver alguma dúvida, sugestão ou feedback, sinta-se à vontade para
+                    nos contatar através dos canais abaixo:</p>
+                <p>E-mail: contato@melhoresseries.com</p>
+                <p>Telefone: (11) 9876-5432</p>
+                <p>Siga-nos nas redes sociais:</p>
+                <p class="facebook">
+                    <img src="./images/Facebook.png" alt="Ícone do Facebook.">
+                    <span>melhoresseriesnaopinia</span>
+                </p>
+                <p class="instagram">
+                    <img src="./images/Instagram.png" alt="Ícone do Instagram.">
+                    <span>@melhoresseriesnaopiniao</span>
+                </p>
+            </div>
+            <form action="processa_contato.php" method="post">
+
+                <input type="text" id="name" name="name" placeholder="Seu nome">
+
+                <input type="email" id="email" name="email" placeholder="Seu melhor email">
+
+                <input type="text" id="assunto" name="assunto" placeholder="Assunto">
+
+                <textarea id="mensagem" name="mensagem" placeholder="Mensagem"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2024 Melhores Séries Inc. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
