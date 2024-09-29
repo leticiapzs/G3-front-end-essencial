@@ -1,0 +1,548 @@
+@font-face {
+    font-family: 'Friends';
+    src: url('./GABRWFFR.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.topo {
+    width: 100%;
+    height: 10rem;
+    background-color: #343a40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #212529;
+    box-shadow: 0 4px 6px #343a40;
+}
+
+.topo img {
+    width: 15%;
+    margin-left: 2.5rem;
+}
+
+ul {
+    margin-right: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e9ecef;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+}
+
+.home:hover {
+    font-size: 2rem;
+}
+
+.sobre:hover {
+    font-size: 2rem;
+}
+
+.contato:hover {
+    font-size: 2rem;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/Fundo.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    filter: brightness(50%);
+    z-index: -1;
+}
+
+.sinopse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.sinopse h1 {
+
+    font-family: 'Friends', sans-serif;
+    font-size: 4rem;
+    color: #FFFFFF;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.resumo {
+    display: flex;
+    width: 65%;
+    margin-bottom: 3rem;
+}
+
+.resumo img {
+    width: 45%;
+    border-radius: 10px;
+    margin-right: 5rem;
+    transition: font-size 0.3s ease;
+}
+
+.resumo img:hover {
+    transform: scale(1.1);
+}
+
+.resumo p {
+    margin: 0;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    line-height: 1.6;
+}
+
+.conhecendo-personagens {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.conhecendo-personagens h2 {
+    font-family: 'Friends', sans-serif;
+    font-size: 2rem;
+    color: #FFFFFF;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid white;
+}
+
+.botoes-amigos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    height: 9rem;
+}
+
+.monica {
+    width: 20%;
+    border-radius: 50%;
+    border: none;
+    background-image: url('./images/Monica.png');
+    background-position: center;
+    background-size: cover;
+    margin-right: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: font-size 0.3s ease;
+    cursor: pointer;
+}
+
+.chandler {
+    width: 20%;
+    border-radius: 50%;
+    border: none;
+    background-image: url('./images/Chandler.png');
+    background-position: center;
+    background-size: cover;
+    margin-right: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: font-size 0.3s ease;
+    cursor: pointer;
+}
+
+.ross {
+    width: 20%;
+    border-radius: 50%;
+    border: none;
+    background-image: url('./images/Ross.png');
+    background-position: center;
+    background-size: cover;
+    margin-right: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: font-size 0.3s ease;
+    cursor: pointer;
+}
+
+.rachel {
+    width: 20%;
+    border-radius: 50%;
+    border: none;
+    background-image: url('./images/Rachel.png');
+    background-position: center;
+    background-size: cover;
+    margin-right: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: font-size 0.3s ease;
+    cursor: pointer;
+}
+
+.joey {
+    width: 20%;
+    border-radius: 50%;
+    border: none;
+    background-image: url('./images/Joey.png');
+    background-position: center;
+    background-size: cover;
+    margin-right: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: font-size 0.3s ease;
+    cursor: pointer;
+}
+
+.phoebe {
+    width: 20%;
+    border-radius: 50%;
+    border: none;
+    background-image: url('./images/Phoebe.png');
+    background-position: center;
+    background-size: cover;
+    margin-right: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: font-size 0.3s ease;
+    cursor: pointer;
+}
+
+.monica:hover,
+.chandler:hover,
+.ross:hover,
+.rachel:hover,
+.joey:hover,
+.phoebe:hover {
+    transform: scale(1.1);
+}
+
+.conhecendo-personagens p {
+    text-align: center;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.opiniao {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.opiniao h2 {
+    font-family: 'Friends', sans-serif;
+    font-size: 2rem;
+    color: #FFFFFF;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid white;
+    width: 100%;
+}
+
+.opiniao p {
+    margin: 0;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.quiz {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz h2 {
+    font-family: 'Friends', sans-serif;
+    font-size: 2rem;
+    color: #FFFFFF;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid white;
+    width: 100%;
+}
+
+.quiz img {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 45%;
+    border-radius: 10px;
+    transition: font-size 0.3s ease;
+}
+
+.quiz img:hover {
+    transform: scale(1.1);
+}
+
+.botao-iniciar {
+    font-family: 'Friends', sans-serif;
+    width: 30%;
+    height: 10vh;
+    font-size: 2rem;
+    margin: 3.5rem;
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: #F0EAB1 #9F9251 #9F9251 #F0EAB1;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #9C8CD4;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+}
+
+.botao-iniciar:hover {
+    transform: scale(1.1);
+}
+
+.quiz-area {
+    background-color:  #cac2e6;
+    border: 5px solid;
+    border-color: #F0EAB1 #9F9251 #9F9251 #F0EAB1;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto; /* Adiciona margem automática à esquerda */
+    margin-right: auto; 
+}
+
+.pergunta {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Friends', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.respostas {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;  
+    gap: 10px;
+}
+
+.botao-quiz {
+    font-family: 'Friends', sans-serif;
+    width: 40%;
+    height: 10vh;
+    font-size: 0.8rem;
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: #F0EAB1 #9F9251 #9F9251 #F0EAB1;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #9C8CD4;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+}
+
+.botao-quiz:hover {
+    background-color:#5e47af;
+}
+
+.hidden {
+    display: none;
+}
+
+.rodape {
+    height: auto;
+    background-color: #343a40;
+    border-top: 3px solid #212529;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    padding-left: 2.5rem;
+    color: #e9ecef;
+}
+
+@media (max-width: 1024px) {
+
+    .topo {
+        height: 7rem;
+    }
+
+    .topo img {
+        width: 20%;
+        margin-left: 1rem;
+    }
+
+    ul {
+        font-size: 0.7rem;
+        margin-right: 1rem;
+    }
+
+    li {
+        margin-left: 1.3px;
+    }
+
+    .home {
+        font-size: 0.9rem;
+    }
+
+    .sobre:hover {
+        font-size: 0.9rem;
+    }
+
+    .contato:hover {
+        font-size: 0.9rem;
+    }
+
+    .sinopse h1 {
+        font-size: 2rem;
+    }
+
+    .resumo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 65%;
+        margin-top: 0;
+    }
+
+    .resumo img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .resumo p {
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .botoes-amigos {
+        margin-bottom: 0;
+    }
+
+    .monica, .chandler, .ross, .rachel, .joey, .phoebe {
+        width: 30%;
+        height: 8vh;
+    }
+
+    .quiz img {
+        width: 80%;
+    }
+
+    .botao-iniciar {
+        width: 40%;
+        height: 7vh;
+        font-size: 1rem;
+    }
+
+    .botao-quiz {
+        width: 60%;
+        height: 7vh;
+        font-size: 1rem;
+    }
+
+    .rodape {
+        height: auto;
+        font-size: 0.6rem;
+        padding-left: 1rem;
+    }
+
+}
+
+@media (max-width: 540px) {
+
+    .botoes-amigos {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;  
+        gap: 10px;
+        height: 50vh;
+        margin-bottom: 0;
+    }
+
+    .monica, .chandler, .ross, .rachel, .joey, .phoebe {
+        width: 30%;
+        height: 10vh;
+    }
+
+    .opiniao h2 {
+        width: auto;
+    }
+
+    .quiz {
+        width: 80%;
+    }
+
+    .botao-quiz {
+        font-size: 0.8rem;
+    }
+}

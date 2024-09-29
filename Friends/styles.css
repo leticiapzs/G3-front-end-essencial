@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Friends';
+    src: url('./GABRWFFR.TTF') format('truetype');
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.topo {
+    width: 100%;
+    height: 10rem;
+    background-color: #343a40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #212529;
+    box-shadow: 0 4px 6px #343a40;
+}
+
+.topo img {
+    width: 15%;
+    margin-left: 2.5rem;
+}
+
+ul {
+    margin-right: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e9ecef;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+}
+
+.home:hover {
+    font-size: 2rem;
+}
+
+.sobre:hover {
+    font-size: 2rem;
+}
+
+.contato:hover {
+    font-size: 2rem;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative; 
+    z-index: 1; 
+    display: flex;
+    justify-content: center;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/FriendsDoor.png'); 
+    background-size: cover; 
+    background-position: center;
+    opacity: 0.5; 
+    z-index: -1;
+}
+
+.botao-principal {
+    font-family: 'Friends', sans-serif;
+    width: 50%;
+    height: 10vh;
+    font-size: 2rem;
+    margin: 3.5rem;
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: #F0EAB1 #9F9251 #9F9251 #F0EAB1;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #9C8CD4;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+}
+
+.botao-principal:hover {
+    transform: scale(1.1);
+}
+
+.ponto-vermelho {
+    color: #F30000;
+}
+
+.ponto-amarelo {
+    color: #FFBB00;
+}
+
+.ponto-azul {
+    color: #00B4ED;
+}
+
+.rodape {
+    height: auto;
+    background-color: #343a40;
+    border-top: 3px solid #212529;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    padding-left: 2.5rem;
+    color: #e9ecef;
+}
+
+@media (max-width: 540px) {
+
+    .topo {
+        height: 4rem;
+    }
+    
+    .topo img {
+        width: 20%;
+        margin-left: 1rem;
+    }
+    
+    ul {
+        font-size: 0.7rem;
+        margin-right: 1rem;
+    }
+
+    li {
+        margin-left: 1.3px;
+    }
+
+    .home {
+        font-size: 0.9rem;
+    }
+
+    .sobre:hover {
+        font-size: 0.9rem;
+    }
+
+    .contato:hover {
+        font-size: 0.9rem;
+    }
+
+    .botao-principal {
+        font-family: 'Friends', sans-serif;
+        width: 80%;
+        height: 10vh;
+        font-size: 1rem;
+        margin: 5rem;
+        border: 5px solid;
+        border-color: #F0EAB1 #9F9251 #9F9251 #F0EAB1;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: #9C8CD4;
+        cursor: pointer;
+        transition: font-size 0.3s ease;
+    }
+
+    .rodape {
+        height: auto;
+        font-size: 0.6rem;
+        padding-left: 1rem;
+    }
+
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+    <header class="topo">
+        <img src="../images/AsMelhoresSeries.png" alt="Logo 'As melhores séries na nossa opinião'">
+        <nav class="navbar">
+            <ul>
+                <li class="home"><a href="../Home/index.html">HOME</a></li>
+                <li class="sobre"><a href="#">SOBRE</a></li>
+                <li class="contato"><a href="../Contato/contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="sinopse">
+            <h1>
+                It sucks! You're gonna love it.
+            </h1>
+            <div class="resumo">
+                <img src="./images/Friends.png"
+                    alt="Uma imagem que reune os 6 personagens principais da série Friends.">
+                <p>Friends é uma sitcom americana criada por David Crane e Marta Kauffman e apresentada pela rede de
+                    televisão NBC entre 22 de setembro de 1994 e 6 de maio de 2004, com um total de 236 episódios. A
+                    série girava em torno de um grupo de amigos que vivia no bairro de Greenwich Village, na ilha de
+                    Manhattan, na cidade de Nova York.
+                </p>
+            </div>
+        </section>
+        <section class="conhecendo-personagens">
+            <h2>Conheça os 6 amigos que conquistaram o mundo!</h2>
+            <div class="botoes-amigos">
+                <button onclick="conhecerPersonagem(1)" class="monica"></button>
+                <button onclick="conhecerPersonagem(2)" class="chandler"></button>
+                <button onclick="conhecerPersonagem(3)" class="ross"></button>
+                <button onclick="conhecerPersonagem(4)" class="rachel"></button>
+                <button onclick="conhecerPersonagem(5)" class="joey"></button>
+                <button onclick="conhecerPersonagem(6)" class="phoebe"></button>
+            </div>
+            <p id="resposta-botao"></p>
+            <audio id="audio-botao" src=""></audio>
+        </section>
+        <section class="opiniao">
+            <h2>Opinião da desenvolvedora</h2>
+            <p>Friends é, sem dúvida, uma das melhores séries já criadas. Com uma combinação perfeita de humor,
+                personagens inesquecíveis e histórias envolventes, a série te conquista desde o primeiro episódio e
+                mantém você preso até o último. Não importa quantas vezes eu reassista, esse grupo de amigos continua
+                sendo o meu refúgio nos dias difíceis. Se você ainda não assistiu, está perdendo a chance de conhecer o
+                verdadeiro significado de uma série icônica. Mas, claro, essa é apenas a minha opinião.</p>
+        </section>
+        <section class="quiz">
+            <h2>Vamos jogar?</h2>
+            <img src="./images/ImagemQuiz.png" alt="Os 6 personagens principais da série Friends tomando milkshake">
+            <button id="botao-iniciar" class="botao-iniciar">Iniciar</button>
+
+
+            <div class="quiz-area hidden" id="area-quiz">
+                <div id="pergunta" class="pergunta"></div>
+                <div id="respostas" class="respostas"></div>
+            </div>
+            <div id="resultado" class="hidden"></div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>&copy; 2024 Melhores Séries Inc. All rights reserved.</p>
+    </footer>
+    <script src="./script2.js"></script>
+</body>
+</html>
