@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    text-align: center; /* Alinhamento do texto ao centro */
+    padding: 0; /* Remove qualquer espaço interno */
+    background-image: url('./assets/2.webp'); /* Imagem de fundo */
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    background-size: 100% auto; /* Tamanho da imagem de fundo */
+    background-position: center; /* Posição da imagem de fundo */
+    background-attachment: fixed; /* A imagem de fundo não rola com a página */
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.topo {
+    width: 100%;
+    height: 10rem;
+    background-color: #343a40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #212529;
+    box-shadow: 0 4px 6px #343a40;
+}
+
+.topo img {
+    width: 15%;
+    margin-left: 2.5rem;
+}
+
+ul {
+    margin-right: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e9ecef;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+}
+
+.home {
+    font-size: 2rem;
+}
+
+.sobre:hover {
+    font-size: 2rem;
+}
+
+.contato:hover {
+    font-size: 2rem;
+}
+
+.bem_vindo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    flex-direction: column;
+    padding-top: 2.5%;
+}
+
+header h3 {
+    /* margin-top: 5%; */
+    font-size: 3rem; /* Tamanho da fonte */
+    color: #171616; /* Cor do texto */
+    text-align: center;
+}
+
+header h4 {
+    font-size: 2rem; /* Tamanho da fonte */
+    color: #171616; /* Cor do texto */
+}
+
+/* Estilos para centralizar o vídeo */
+.video-section {
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+}
+
+video {
+    width: 45%; /* 40% da tela */
+    border: 0.5px solid #2a2929; /* Borda branca */
+    border-radius: 10px;
+}
+
+/* Estilo da seção sobre a desenvolvedora */
+.sinopse {
+    margin: 1px 0; /* Margens superior e inferior */
+}
+
+/* Estilo da imagem da desenvolvedora */
+.sinopse img {
+    margin-bottom: 1%; 
+    width: 25%; 
+   
+}
+
+/* Estilo do texto da desenvolvedora */
+.sinopse p {
+    flex-direction: column;
+    display: flex;
+    color: #171616; /* Cor do texto */
+    font-size: 2rem; /* Tamanho da fonte */
+    line-height: 1.6; /* Altura da linha */
+    width: 40%; /* Largura do texto */
+    margin-top: 0; 
+    margin-left: 30%;
+}
+.texto-card {
+    
+    font-size: 1.5rem;
+}
+
+.quiz {
+    margin-top: 20%;
+    margin-left: 40%;
+    width: 20%;
+    background-color: #212221;
+    opacity: 0.5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.quiz h4 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.quiz p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.quiz label {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.quiz input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.quiz input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilo do rodapé */
+footer {
+    margin-top: 10%; /* Margem superior */
+    font-size: 0.9rem; /* Tamanho da fonte */
+    color: #bbbbbb; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto ao centro */
+}
