@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="style.css">
+    <title>Grey's Anatomy</title>
+</head>
+<body>
+    <header class="topo">
+        <div class="faixa">
+            <img src="AsMelhoresSeries.png" alt="Logo 'As melhores séries na nossa opinião'">
+            <nav class="navbar">
+                <ul>
+                    <li class="home"><a href="#">HOME</a></li>
+                    <li class="sobre"><a href="#">SOBRE</a></li>
+                    <li class="contato"><a href="#">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div class="linha-sobre-a-série"></div>
+        <div class="biografia-container">
+            <h3 class="titulo-sobre">Sobre a série: Grey's Anatomy</h3>
+            <div class="biografia" id="sobre"> 
+                <div class="texto sobre-a-série caixa-destaque">
+                    <p>Grey's Anatomy é uma série de TV criada por Shonda Rhimes, estreada em 2005. A história segue Meredith Grey e outros médicos residentes em um hospital, abordando desafios médicos e questões pessoais. A série combina drama e romance, explorando temas como amizade, amor e perda, e é reconhecida por sua diversidade e relevância social. Com mais de 20 temporadas, continua a ser uma das séries mais longas e aclamadas da televisão.</p>
+                </div>
+                <div class="botao-avaliacao">
+                    <button id="abrirModal">Avaliar Série</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar" id="fecharModal">&times;</span>
+            <h2>Deixe sua avaliação sobre a série:</h2>
+            <textarea id="avaliacao" rows="5" placeholder="Deixe sua avaliação..."></textarea>
+            <button id="enviarAvaliacao">Enviar Avaliação</button>
+            <div id="mensagem" class="mensagem"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="rodape">
+            <p>2024 Melhores Séries Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

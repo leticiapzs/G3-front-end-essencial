@@ -1,0 +1,198 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+    overflow-x: hidden; 
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('meredith.webp'); 
+    background-size: cover; 
+    background-position: top center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+.main-content {
+    flex: 1; 
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.biografia-container {
+    width: 100%; 
+    max-width: 600px; 
+    padding: 20px; 
+}
+
+.faixa {
+    width: 100%; 
+    background-color: rgba(52, 58, 64, 0.8); 
+    display: flex;
+    align-items: center; 
+    padding: 1rem 0; 
+    justify-content: flex-start; 
+}
+
+.faixa img {
+    width: 15%; 
+    margin-left: 20px; 
+    margin-right: 1rem; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end; 
+    flex-grow: 1; 
+    margin-right: 2.5rem; 
+}
+
+ul {
+    display: flex; 
+    padding: 0; 
+    margin: 0; 
+}
+
+li {
+    list-style-type: none;
+    margin-left: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #e9ecef;
+    font-size: 1.5rem; 
+}
+
+a:hover {
+    font-size: 2rem; 
+}
+
+.rodape {
+    width: 100%; 
+    background-color: rgba(52, 58, 64, 0.8); 
+    border-top: 3px solid #212529;
+    padding: 1rem 2.5rem; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    color: #e9ecef;
+    position: relative; 
+}
+
+.botao-avaliacao {
+    display: flex; 
+    justify-content: center; 
+    margin: 20px 0; 
+}
+
+.botao-avaliacao button {
+    background-color: gray; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    font-size: 1rem; 
+    cursor: pointer; 
+}
+
+.botao-avaliacao button:hover {
+    background-color: black; 
+}
+
+.biografia {
+    padding: 10px; 
+    border-radius: 8px; 
+    text-align: left; 
+}
+
+.caixa-destaque {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border: 2px solid #343a40; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin: 20px 0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+}
+
+.titulo-sobre {
+    text-align: center; 
+    font-size: 1.5rem; 
+    margin-bottom: 10px; 
+    color: #ffffff; 
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1001; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.modal-conteudo {
+    background-color: #fff; 
+    margin: 15% auto; 
+    padding: 20px; 
+    border: 1px solid #888; 
+    width: 300px;
+    border-radius: 8px; 
+}
+
+.fechar {
+    color: #aaa; 
+    float: right; 
+    font-size: 28px; 
+    font-weight: bold; 
+}
+
+.fechar:hover,
+.fechar:focus {
+    color: black; 
+    text-decoration: none; 
+    cursor: pointer; 
+}
+
+.mensagem {
+    margin-top: 10px; 
+    font-size: 1rem; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
