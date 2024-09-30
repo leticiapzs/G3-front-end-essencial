@@ -88,7 +88,9 @@ li {
     box-shadow: #212529 0px 5px 15px;
     position: relative;
     overflow: hidden;
-    /* Para esconder o texto fora da carta */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card img {
@@ -99,26 +101,63 @@ li {
 
 .card p {
     position: absolute;
-    bottom: -55px;
-    /* Inicialmente fora da visão */
+    bottom: -50px;
     left: 0;
     width: 100%;
     text-align: center;
     background-color: #343a40;
     color: #e9ecef;
     transition: bottom 0.3s ease;
-    /* Transição suave para o texto */
 }
 
 .card:hover img {
-    transform: translateY(-50px);
-    /* Sobe a imagem ao passar o mouse */
+    transform: translateY(-100px);
 }
 
 .card:hover p {
-    bottom: 0;
-    /* Faz o texto aparecer ao passar o mouse */
+    bottom: 50px;
 }
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: absolute;
+    bottom: -65px;
+    transition: opacity 0.3s ease, bottom 0.3s ease;
+}
+
+.botao {
+    background: none;
+    border: 2px solid #e9ecef;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e9ecef;
+}
+
+.card:hover .botoes {
+    bottom: 10px;
+}
+
+.card.fundo-verde {
+    border: 5px solid;
+    border-radius: 8px;
+    border-color: #95a10f #2c3e07 #2c3e07  #95a10f;    
+}
+
+.card.fundo-vermelho {
+    border: 5px solid;
+    border-radius: 8px;
+    border-color: #f30808 #680707 #680707  #f30808;   
+}
+
 
 .rodape {
     height: auto;
@@ -142,12 +181,10 @@ li {
 
     .card p {
         bottom: -75px;
-        /* Inicialmente fora da visão */
     }
 
     .card:hover img {
         transform: translateY(-75px);
-        /* Sobe a imagem ao passar o mouse */
     }
 
 }
