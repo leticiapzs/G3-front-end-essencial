@@ -42,7 +42,7 @@ li {
     transition: font-size 0.3s ease;
 }
 
-.home {
+.home:hover {
     font-size: 2rem;
 }
 
