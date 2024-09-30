@@ -73,13 +73,13 @@ li {
 header h3 {
     /* margin-top: 5%; */
     font-size: 3rem; /* Tamanho da fonte */
-    color: #bebcbc; /* Cor do texto */
+    color: #f4f3f3; /* Cor do texto */
     text-align: center;
 }
 
 header h4 {
     font-size: 2rem; /* Tamanho da fonte */
-    color: #979696; /* Cor do texto */
+    color: #f4f3f9; /* Cor do texto */
 }
 
 /* Estilos para centralizar o vídeo */
@@ -91,7 +91,7 @@ header h4 {
 
 video {
     width: 45%; /* 40% da tela */
-    border: 0.5px solid #959595; /* Borda branca */
+    border: 0.5px solid #f4f3f9; /* Borda branca */
     border-radius: 10px;
 }
 
@@ -127,7 +127,7 @@ video {
     margin-top: 20%;
     margin-left: 40%;
     width: 20%;
-    background-color: #212221;
+    background-color: #f4f3f9;
     opacity: 0.5;
     padding: 20px;
     border-radius: 5px;
