@@ -25,15 +25,12 @@ Você precisa de um navegador moderno para visualizar a página corretamente.
 ## 👥 Contribuidores
 Este projeto foi desenvolvido por:
 
-- **Lorrayne Morais** - ✍️ Especialista em resenhas e conteúdo.
-- **Ana Luiza Lobo** - 🎨 Designer e responsável pelo estilo visual do site.
-- **Frederico Fernandes** - 💻 Desenvolvedor front-end.
-- **Leticia Peixoto** - 🔧 Desenvolvedora front-end e revisora de código.
-- **Bruna Coelho** - 📝 Criadora de conteúdo e curadora de séries.
-- **Yuri Campos** - ⚙️ Desenvolvedor de JavaScript e animações.
-
-## 📧 Contato
-Se você tiver dúvidas, sugestões ou feedback, entre em contato conosco por meio de nossos perfis no GitHub ou envie um e-mail para: `contato@melhoresséries.com`.
+- **Lorrayne Morais** 
+- **Ana Luiza Lobo** 
+- **Frederico Fernandes** 
+- **Leticia Peixoto**
+- **Bruna Coelho** 
+- **Yuri Campos**
 
 ## 📜 Licença
 Este projeto é licenciado sob a [MIT License](LICENSE).
