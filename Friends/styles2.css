@@ -118,6 +118,8 @@ li {
 .resumo {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 65%;
     margin-bottom: 3rem;
    
@@ -148,11 +150,31 @@ li {
     line-height: 1.6;
 }
 
+.botao-saber {
+    font-family: 'Friends', sans-serif;
+    width: 30%;
+    height: 10vh;
+    font-size: 2rem;
+    margin: 3.5rem;
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: #F0EAB1 #9F9251 #9F9251 #F0EAB1;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #9C8CD4;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+}
+
+.botao-saber:hover {
+    transform: scale(1.1);
+}
+
 .conhecendo-personagens {
     width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .conhecendo-personagens h2 {
@@ -342,6 +364,20 @@ li {
     width: 100%;
 }
 
+.quiz p {
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    line-height: 1.6;
+}
+
 .quiz img {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -452,6 +488,10 @@ li {
         font-size: 2rem;
     }
 
+    .video {
+        width: 80%;
+    }
+
     .resumo {
         display: flex;
         flex-direction: column;
@@ -486,6 +526,12 @@ li {
 
     .botao-iniciar {
         width: 40%;
+        height: 7vh;
+        font-size: 1rem;
+    }
+
+    .botao-saber {
+        width: 50%;
         height: 7vh;
         font-size: 1rem;
     }
@@ -531,18 +577,26 @@ li {
         font-size: 0.9rem;
     }
 
+    .conhecendo-personagens {
+        margin-bottom: 3rem;
+    }
+
     .botoes-amigos {
         display: flex; 
         flex-direction: column; 
         align-items: center;  
         gap: 10px;
-        height: 50vh;
-        margin-bottom: 0;
+        height: 60vh;
+        margin-bottom: 1rem;
     }
 
     .monica, .chandler, .ross, .rachel, .joey, .phoebe {
         width: 30%;
         height: 10vh;
+    }
+
+    .botao-saber {
+        font-size: 0.8rem;
     }
 
     .opiniao h2 {

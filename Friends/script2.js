@@ -1,3 +1,10 @@
+document.getElementById('botao-saber').addEventListener('click', function() {
+    
+    window.open('https://www.adorocinema.com/series/serie-49/', '_blank');
+
+ 
+});
+
 function conhecerPersonagem(botao) {
     const resposta = document.getElementById("resposta-botao");
     const audio = document.getElementById("audio-botao");
