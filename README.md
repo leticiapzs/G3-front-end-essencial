@@ -26,7 +26,7 @@ Você precisa de um navegador moderno para visualizar a página corretamente.
 Este projeto foi desenvolvido por:
 
 - **Lorrayne Morais** 
-- **Ana Luiza Lobo** 
+- **Ana Luísa Lobo** 
 - **Frederico Fernandes** 
 - **Leticia Peixoto**
 - **Bruna Coelho** 
