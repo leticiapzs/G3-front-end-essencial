@@ -85,16 +85,7 @@ li {
     z-index: -1;
 }
 
-.sinopse {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    margin-top: 3rem;
-}
-
-.sinopse h1 {
+.container h1 {
 
     font-family: 'Friends', sans-serif;
     font-size: 4rem;
@@ -105,13 +96,28 @@ li {
         -1px 1px 0 #000,
         1px 1px 0 #000;
     text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.video {
+    width: 60%;
+    border-radius: 10px;
     margin-bottom: 3rem;
+}
+
+.sinopse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3rem;
 }
 
 .resumo {
     display: flex;
     width: 65%;
-    margin-bottom: 3rem;
 }
 
 .resumo img {
@@ -143,7 +149,6 @@ li {
     width: 70%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 3rem;
     margin-top: 3rem;
     justify-content: center;
 }
