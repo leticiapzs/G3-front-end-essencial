@@ -59,7 +59,7 @@ li {
     font-size: 2rem;
 }
 
-.container {
+.container-fluid {
     width: 100%;
     position: relative;
     z-index: 1;
@@ -70,7 +70,7 @@ li {
     margin: auto;
 }
 
-.container::before {
+.container-fluid::before {
     content: "";
     position: absolute;
     top: 0;
@@ -85,25 +85,10 @@ li {
     z-index: -1;
 }
 
-.container h1 {
-
-    font-family: 'Friends', sans-serif;
-    font-size: 4rem;
-    color: #FFFFFF;
-    text-shadow:
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
-    text-align: center;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
-
 .video {
     width: 60%;
+    margin-top: 4rem;
     border-radius: 10px;
-    margin-bottom: 3rem;
 }
 
 .sinopse {
@@ -115,15 +100,32 @@ li {
     margin-top: 3rem;
 }
 
+.sinopse h1 {
+
+    font-family: 'Friends', sans-serif;
+    font-size: 4rem;
+    color: #FFFFFF;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
 .resumo {
     display: flex;
+    flex-direction: column;
     width: 65%;
+    margin-bottom: 3rem;
+   
 }
 
 .resumo img {
     width: 45%;
     border-radius: 10px;
-    margin-right: 5rem;
+    margin-bottom: 3rem;
     transition: font-size 0.3s ease;
 }
 
@@ -133,7 +135,7 @@ li {
 
 .resumo p {
     margin: 0;
-    text-align: right;
+    text-align: center;
     font-size: 1rem;
     font-weight: bold;
     color: white;
@@ -149,7 +151,6 @@ li {
     width: 70%;
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
     justify-content: center;
 }
 
@@ -432,6 +433,7 @@ li {
     align-items: center;
     padding-left: 2.5rem;
     color: #e9ecef;
+    padding-top: 1rem;
 }
 
 @media (max-width: 1024px) {
