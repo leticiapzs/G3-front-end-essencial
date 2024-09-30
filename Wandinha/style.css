@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.089), rgb(0, 0, 0)), url(https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQe31PE5fKuB_suWMyLcA1SS5otqwbv7COzC54aqm_cni3DUPcFk1GmCpHjym3WblmB-c9G4Pa6zLP4r22qapVAUcIVzqUfujcj_S7jKU7vrhIRLtPA38nsZLmylA2MqaxmL-EBWYhTAk6bL6exjXEWyK.jpg?r=c51);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-position: top center;
+    background-attachment: fixed;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.topo {
+    width: 100%;
+    height: 10rem;
+    background-color: #343a40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #212529;
+    box-shadow: 0 4px 6px #343a40;
+}
+.topo img {
+    width: 15%;
+    margin-left: 2.5rem;
+}
+ul {
+    margin-right: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e9ecef;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+}
+
+.home {
+    font-size: 2rem;
+}
+
+.logoWandinha {
+    text-align: left;
+}
+
+.logoWandinha img {
+    max-width: 50%;
+    height: auto;
+
+}
+
+.sinopse {
+    max-width: 50%;
+    margin: 0 0 auto;
+    padding: 200px 1rem 1rem;
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+.sobre:hover {
+    font-size: 2rem;
+}
+.elenco {
+    text-align: center;
+    margin: 30px;
+  }
+  
+ 
+.contato:hover {
+    font-size: 2rem;
+}
+
+.container {
+    position: relative; 
+    z-index: 1; 
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url('/images/Wandinha2.jpg');
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+
+
+
+.wandinha-details {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+}
+.wandinha-image {
+    display: flex;
+    margin: 20px auto;
+    max-width: 80%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: auto;
+
+}
+.separator {
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+
+
+
+.wandinha-dance {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+.wandinha-dance1 {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+
+
+
+.titulo-carrossel {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+.carrossel {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carrossel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carrossel-item {
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ator-imagem {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+button.prev, button.next {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #7B92A6;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 2rem;
+    z-index: 2;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+.carrossel-container{
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: poppins;
+}
+.carrossel {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.carrossel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carrossel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100%;
+    padding: 20px;
+}
+
+.ator-imagem {
+    
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.informacoes-ator {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+button.prev, button.next {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 2rem;
+    z-index: 1;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+
+
+
+.trailers-teasers {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    text-align: center;
+    margin: 40px 0;
+}
+
+.titulo-trailers {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 40px;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+.video-grid {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+
+
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.informacao-item {
+    flex: 1;
+    background-color: rgba(253, 250, 250, 0.752);
+    border-radius: 10px;
+    padding: 20px;
+    color: #000000;
+    margin-right: 20px;
+}
+
+.informacao-item:last-child {
+    margin-right: 0;
+}
+
+
+
+
+.noticias {
+    margin: 50px 0;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+
+    
+}
+
+.titulo-noticias {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+.noticias-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(0, 36, 99);
+    padding: 50px;
+}
+
+.noticia-item {
+    flex: 1;
+    margin: 13px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 0px;
+    font-family: inherit;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.noticia-imagem {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+
+
+.rodape {
+    height: auto;
+    background-color: #343a40;
+    border-top: 3px solid #212529;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    padding-left: 2.5rem;
+    color: #e9ecef;
+}
+
+@media (max-width: 540px) {
+
+    .topo {
+        height: 4rem;
+    }
+    
+    .topo img {
+        width: 20%;
+        margin-left: 1rem;
+    }
+    ul {
+        font-size: 0.7rem;
+        margin-right: 1rem;
+    }
+
+    li {
+        margin-left: 1.3px;
+    }
+
+    .home {
+        font-size: 0.9rem;
+    }
+
+    .sobre:hover {
+        font-size: 0.9rem;
+    }
+
+    .contato:hover {
+        font-size: 0.9rem;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+    }    
+
+    .card p {
+       font-size: 0.8rem;
+    }
+
+    .rodape {
+        height: auto;
+        font-size: 0.6rem;
+        padding-left: 1rem;
+    }
+    .sinopse {
+        font-size: 0.5rem;
+    }
+
+    .elenco-carousel {
+        width: 95%;
+        margin: 30px auto;
+    }
+
+    .membro-elenco img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .titulo-elenco {
+        font-size: 1.5rem;
+        top: -6vh;
+    }
+
+    button.prev, button.next {
+        font-size: 1.2rem;
+        padding: 6px;
+    }
+    .video-gallery {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .video-item {
+        max-width: 100%;
+    }
+
+    .video-item iframe {
+        height: 100%;
+    }
+
+
+
+
+
+
+    .wandinha-details {
+        padding: 15px;
+        margin: 10px;
+    }
+    .wandinha-image {
+        display: block;
+        margin: 20px auto;
+        max-width: 80%;
+        border-radius: 10px;
+    }
+    .separator {
+        height: 40px;
+    }
+
+
+
+
+    .wandinha-dance {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .wandinha-dance iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .wandinha-dance1 iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .informacoes {
+        flex-direction: column;
+    }
+
+    .informacao-item {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
