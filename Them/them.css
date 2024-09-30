@@ -1,0 +1,570 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.topo {
+    width: 100%;
+    height: 10rem;
+    background-color: #343a40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #212529;
+    box-shadow: 0 4px 6px #343a40;
+}
+
+.topo img {
+    width: 15%;
+    margin-left: 2.5rem;
+}
+
+ul {
+    margin-right: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e9ecef;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+}
+
+.home {
+    font-size: 2rem;
+}
+
+.sobre:hover {
+    font-size: 2rem;
+}
+
+.contato:hover {
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.fundoThem {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.089), rgb(0, 0, 0)), url(https://pitacosdoleleco.com.br/wp-content/uploads/2021/11/machado-1536x1024.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 120vh;
+}
+
+.fundoThem img {
+    margin: -3%;
+    line-height: 1.5;
+    display: block;
+    margin-left: auto;
+    margin-right: 2rem;
+    height: 30rem;
+    width: 100%;
+    max-width: 50%;
+    height: auto;
+}
+
+
+.cards {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 50%;
+    background-color: #ff000000;
+    border-radius: 8px;
+    margin: 2rem;
+    box-shadow: #2921213d 0px 5px 15px;
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: 2rem;
+    margin-top: -4%;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card p {
+    font-size: 150%;
+    color: #e9ecef;
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+/* Primeira Temporada */
+.primeiraTemporada h1 {
+    margin-left: 3%;
+    font-family: "Candal";
+    font-size: 500%;
+    color: #BF0413;
+    margin-top: -1%;
+}
+
+.primeiraTemporada img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+    box-shadow: #ffffffc2 0px 5px 15px;
+    margin-bottom: 3%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.imagemPrimeiraTemporada {
+    position: relative;
+    z-index: 0;
+}
+
+
+.primeiraTemporada a img:hover {
+    transform: scale(1.05);
+    box-shadow: #ffffffc2 0px 8px 20px;
+    cursor: pointer;
+    filter: blur(5px);
+}
+
+.cardDois {
+    width: 45%;
+    background-color: #0000009c;
+    border-radius: 18px;
+    margin: 2rem;
+    box-shadow: #ffffff3d 0px 5px 15px;
+    position: relative;
+    overflow: hidden;
+    margin-top: -4%;
+    padding: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 4%;
+}
+
+.cardDois p {
+    font-family: "Merriweather Sans";
+    text-align: center;
+    width: 80%;
+    font-size: 180%;
+    margin: 0 auto;
+    color: #e9ecef
+}
+
+.trailerFeedback {
+    display: flex;
+    align-items: flex-start;
+}
+
+.trailerFeedback iframe {
+    display: block;
+    margin-left: 5%;
+    border-radius: 8px;
+    box-shadow: #ffffff3d 0px 5px 15px;
+    margin-bottom: 2%;
+}
+
+.feedbackArea {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedbackArea h1 {
+    margin-left: 5%;
+    color: #BF0413;
+    font-size: 350%;
+}
+
+.cardTres {
+    margin-left: 5%;
+    width: 80%;
+    background-color: #0000009c;
+    border-radius: 18px;
+    margin-top: 1rem;
+    box-shadow: #ffffff3d 0px 5px 15px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.cardTres p {
+    font-family: "Merriweather Sans";
+    color: #e9ecef;
+    font-size: 150%;
+}
+
+
+.separacao hr {
+    height: 20px;
+    border: none;
+    margin: 10% 0;
+    margin-bottom: 10%;
+    background: linear-gradient(to right, #ffffff3d, #BF0413);
+}
+
+
+/* Segunda Temporada */
+.segundaTemporada h1 {
+    margin-left: 3%;
+    font-family: "Candal";
+    font-size: 500%;
+    color: #BF0413;
+}
+
+.segundaTemporada img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+    box-shadow: #BF0413 0px 5px 15px;
+    margin-bottom: 3%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.imagemSegundaTemporada {
+    position: relative;
+    z-index: 0;
+}
+
+.segundaTemporada a img:hover {
+    transform: scale(1.05);
+    box-shadow: #BF0413 0px 8px 20px;
+    cursor: pointer;
+    filter: blur(5px);
+}
+
+.cardQuatro {
+    width: 45%;
+    background-color: #0000009c;
+    border-radius: 18px;
+    margin: 2rem;
+    box-shadow: #BF0413 0px 5px 15px;
+    position: relative;
+    overflow: hidden;
+    margin-top: -4%;
+    padding: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 4%;
+}
+
+.cardQuatro p {
+    font-family: "Merriweather Sans";
+    text-align: center;
+    width: 80%;
+    font-size: 180%;
+    margin: 0 auto;
+    color: #e9ecef;
+}
+
+.trailerFeedbackDois {
+    display: flex;
+    align-items: flex-start;
+}
+
+.trailerFeedbackDois iframe {
+    display: block;
+    margin-left: 5%;
+    border-radius: 8px;
+    box-shadow: #BF0413 0px 5px 15px;
+    margin-bottom: 2%;
+}
+
+.feedbackAreaDois {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedbackAreaDois h1 {
+    margin-left: 5%;
+    color: #BF0413;
+    font-size: 350%;
+}
+
+.cardCinco {
+    margin-left: 5%;
+    width: 80%;
+    background-color: #0000009c;
+    border-radius: 18px;
+    margin-top: 1rem;
+    box-shadow: #BF0413 0px 5px 15px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.cardCinco p {
+    font-family: "Merriweather Sans";
+    color: #e9ecef;
+    font-size: 150%;
+}
+
+
+.separacaoDois hr {
+    height: 20px;
+    border: none;
+    margin: 10% 0px;
+    margin-bottom: 10%;
+    background: linear-gradient(to right, #BF0413, #ffffff3d);
+}
+
+
+/* Avaliação */
+.avalie h1 {
+    margin-left: 3%;
+    font-family: "Candal";
+    font-size: 500%;
+    color: #BF0413;
+}
+
+.interatividade p {
+    font-family: "Merriweather Sans";
+    margin-left: 3%;
+    color: gray;
+    font-size: 200%;
+}
+
+.estrelas {
+    text-align: center;
+    font-size: 500%;
+    cursor: pointer;
+}
+
+.estrelas span {
+    color: gray;
+}
+
+.estrelas span.active {
+    color: #BF0413;
+}
+
+
+
+
+
+
+
+
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    .fundoThem img {
+        max-width: 70%;
+    }
+    
+    .card {
+        width: 45%;
+        margin: 1.5rem;
+    }
+    
+    .primeiraTemporada h1, .segundaTemporada h1{
+        font-size: 350%;
+    }
+
+    .trailerFeedback, .trailerFeedbackDois {
+        flex-direction: column;
+    }
+
+    .card p {
+        font-size: 130%;
+    }
+}
+
+@media (max-width: 768px) {
+    .fundoThem img {
+        max-width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .primeiraTemporada h1 {
+        font-size: 250%;
+    }
+
+    .trailerFeedback {
+        flex-direction: column;
+    }
+
+    .card p {
+        font-size: 120%;
+    }
+}
+
+@media (max-width: 480px) {
+    .fundoThem {
+        height: auto;
+    }
+
+    .primeiraTemporada h1 {
+        font-size: 200%;
+    }
+
+    .primeiraTemporada img {
+        max-width: 80%;
+    }
+
+    .trailerFeedback iframe {
+        height: 30%;
+        width: 30%;
+    }
+
+    .trailerFeedback {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .card p {
+        font-size: 100%;
+    }
+}
+
+
+@media (max-width: 1024px) {
+
+    .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card p {
+        bottom: -75px;
+    }
+
+    .card:hover img {
+        transform: translateY(-75px);
+    }
+
+}
+
+@media (max-width: 540px) {
+
+    .topo {
+        height: 5rem;
+    }
+
+    .topo img {
+        width: 20%;
+        margin-left: 1rem;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    ul {
+        font-size: 0.7rem;
+        margin-right: 1rem;
+    }
+
+    li {
+        margin-left: 1.3px;
+    }
+
+    .home {
+        font-size: 0.9rem;
+    }
+
+    .sobre:hover {
+        font-size: 0.9rem;
+    }
+
+    .contato:hover {
+        font-size: 0.9rem;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .card p {
+        font-size: 0.8rem;
+    }
+
+    .rodape {
+        height: auto;
+        font-size: 0.6rem;
+        padding-left: 1rem;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1024px) and (min-height: 600px) and (max-height: 600px) {
+
+    .container {
+        height: 150vh;
+    }
+
+    .cards {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+.rodape {
+    height: auto;
+    background-color: #343a40;
+    border-top: 3px solid #212529;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    padding-left: 2.5rem;
+    color: #e9ecef;
+}
