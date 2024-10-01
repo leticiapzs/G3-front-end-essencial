@@ -15,10 +15,7 @@
 - **JavaScript**: Funcionalidade e interatividade, incluindo filtros e animações.
 
 ## 🛠️ Como Usar
-1. ⬇️ Clone ou baixe o repositório para o seu computador.
-2. 🌐 Abra o arquivo `index.html` em um navegador web.
-3. 📖 Navegue pela página e explore as nossas recomendações de séries. [As melhores séries - Na nossa opinião](https://melhoresseries-nu.vercel.app/)
-
+- 📖 Navegue pela página e explore as nossas recomendações de séries. [As melhores séries - Na nossa opinião](https://melhoresseries-nu.vercel.app/)
 
 ## ✅ Pré-requisitos
 Você precisa de um navegador moderno para visualizar a página corretamente.
