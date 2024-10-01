@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
+    width: 100%;
 }
 
 a {
@@ -47,6 +48,7 @@ li:hover {
 }
 
 .container {
+    width: 100%;
     position: relative; 
     z-index: 1; 
 }
@@ -96,7 +98,7 @@ li:hover {
     width: 100%;
     background-position: center; 
     background-repeat: no-repeat; 
-    padding: 40px 20px 80px; 
+    padding: 1rem ;
     color: white; 
 }
 
@@ -186,18 +188,22 @@ button:hover {
     color: #e9ecef;
 }
 
-/* Media Query */
+
 @media (max-width: 540px) {
+
     .topo {
-        flex-direction: column;
-        height: auto; 
+        height: 5rem;
     }
-    
+
     .topo img {
-        width: 50%;
-        margin-left: 0;
+        width: 20%;
+        margin-left: 1rem;
     }
-    
+
+    .container {
+        height: auto;
+    }
+
     ul {
         font-size: 0.7rem;
         margin-right: 1rem;
@@ -205,15 +211,29 @@ button:hover {
 
     li {
         margin-left: 1.3px;
-        font-size: 0.9rem; 
     }
 
-    .rodape {
-        font-size: 0.6rem;
-        padding-left: 1rem;
+    .home:hover {
+        font-size: 0.9rem;
+    }
+
+    .sobre:hover {
+        font-size: 0.9rem;
+    }
+
+    .contato:hover {
+        font-size: 0.9rem;
     }
 
     .temporada {
         width: 100%; /* Ajuste para ocupar a largura total em telas pequenas */
     }
+
+    .rodape {
+        height: auto;
+        font-size: 0.6rem;
+        padding-left: 1rem;
+    }
+
 }
+
