@@ -9,7 +9,7 @@ body {
     padding: 0; /* Remove qualquer espaço interno */
     background-image: url('./assets/2.webp'); /* Imagem de fundo */
     background-repeat: no-repeat; /* Não repetir a imagem */
-    background-size: 100% auto; /* Tamanho da imagem de fundo */
+    background-size: cover; /* Tamanho da imagem de fundo */
     background-position: center; /* Posição da imagem de fundo */
     background-attachment: fixed; /* A imagem de fundo não rola com a página */
     opacity: 1.0;
@@ -75,10 +75,13 @@ video {
     margin-bottom: 10%;
 }
 
+.container1 {
+    width: 100%;
+}
 /* Estilo da seção sobre a desenvolvedora */
 .sinopse {
     margin-left: 32%;
-    width: 34%;
+    width: 40%;
     background-color: #1d1c1c5e;
     padding: 20px;
     border-radius: 5px;
@@ -141,4 +144,63 @@ footer {
     font-size: 0.9rem; /* Tamanho da fonte */
     color: #bbbbbb; /* Cor do texto */
     text-align: center; /* Alinhamento do texto ao centro */
-}
+} 
+
+@media (max-width: 540px) {
+
+    .topo {
+        height: 5rem;
+    }
+
+    .topo img {
+        width: 20%;
+        margin-left: 1rem;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    ul {
+        font-size: 0.7rem;
+        margin-right: 1rem;
+    }
+
+    li {
+        margin-left: 1.3px;
+    }
+
+    .home:hover {
+        font-size: 0.9rem;
+    }
+
+    .sobre:hover {
+        font-size: 0.9rem;
+    }
+
+    .contato:hover {
+        font-size: 0.9rem;
+    }
+    .temporadas h2 {
+        font-size: 1rem;
+    }
+    .sinopse p {
+        font-size: 1rem;
+    }    }
+    .sinopse {
+        margin-left: 5%;
+        width: 50%;
+        text-align: center;
+    }
+    .container1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-serie, .btn-aventura {
+        padding: 10px 20px;
+        font-size: 0.5rem;
+    }
+    footer {
+        font-size: 0.5rem; /* Tamanho da fonte */
+    }
