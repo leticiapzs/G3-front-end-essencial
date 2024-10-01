@@ -1,36 +1,15 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // Função que verifica as respostas do quiz
-    function verificarRespostas(event) {
-        event.preventDefault(); // Evita o envio do formulário para que possamos processá-lo com JavaScript
+// script.js
 
-        // Respostas corretas
-        const respostasCorretas = {
-            q1: "18",
-            q2: "Jamie",
-            q3: "Escócia"
-        };
+// Seleciona todas as divs com a classe 'categoria'
+const temporadas = document.querySelectorAll('.temporadas');
 
-        // Obter respostas do usuário
-        const respostasUsuario = {
-            q1: document.querySelector('input[name="q1"]:checked')?.value,
-            q2: document.querySelector('input[name="q2"]:checked')?.value,
-            q3: document.querySelector('input[name="q3"]:checked')?.value
-        };
-
-        // Verificar as respostas
-        let pontuacao = 0;
-        for (let [pergunta, resposta] of Object.entries(respostasUsuario)) {
-            if (resposta === respostasCorretas[pergunta]) {
-                pontuacao++;
-            }
-        }
-
-        // Exibir resultado
-        const resultadoDiv = document.getElementById('resultado');
-        resultadoDiv.innerHTML = `Você acertou ${pontuacao} de 3 perguntas!`;
-    }
-
-    // Adicionar evento de envio ao formulário
-    const quizForm = document.getElementById('quizForm');
-    quizForm.addEventListener('submit', verificarRespostas);
+// Itera sobre cada categoria
+temporadas.forEach(temporadas => {
+    // Adiciona um evento de clique a cada categoria
+    temporadas.addEventListener('click', () => {
+        // Obtém o link associado à categoria a partir do atributo 'data-link'
+        const link = temporadas.getAttribute('data-link');
+        // Redireciona o usuário para o link ao clicar na categoria
+        window.location.href = link;
+    });
 });
