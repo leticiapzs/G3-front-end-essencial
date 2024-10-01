@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,9 @@
     <title>As Melhores Séries</title>
     <script src="OutLand.js" defer></script>
     <link rel="stylesheet" href="OutLand.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
     <header class="topo">
         <img src="./assets/AsMelhoresSeries.png" alt="Logo 'As melhores séries na nossa opinião'">
@@ -19,61 +18,70 @@
             <ul>
                 <li class="home"><a href="../Home/index.html">HOME</a></li>
                 <li class="sobre"><a href="../Sobre/index.html">SOBRE</a></li>
-                <li class="contato"><a href="../Contato/contato.html">CONTATO</a></li>>
+                <li class="contato"><a href="../Contato/contato.html">CONTATO</a></li>
             </ul>
         </nav>
     </header>
-
-    <header class="bem_vindo">   
-        <h3> Bem vindo!</h3>
-        <h4>Prepare-se para viajar além do tempo e viver uma história inesquecível.</h4>
-    </header>
-
-    <section class="video-section">
-        <video controls>
-            <source src="./assets/10.mp4" type="video/mp4">
-            Seu navegador não suporta vídeos.
-        </video>
-    </section>
-     
-    <section class="sinopse">        
-        <img src="./assets/1.png" alt="OutLand">    
-        <p>Outland é uma jornada épica que transcende o tempo e o espaço. Mergulhe em uma história onde passado e presente colidem, explorando o poder avassalador do amor e a força da sobrevivência em um mundo onde as regras mudam a cada passo. Acompanhe Claire Randall, uma mulher do século XX, que é misteriosamente transportada para a Escócia do século XVIII. Em meio a guerras, paixões e intrigas, ela descobre que o destino pode ser tão imprevisível quanto o próprio tempo. Prepare-se para se perder em paisagens deslumbrantes, tramas intensas e personagens inesquecíveis. Outland é mais do que uma série; é uma viagem que você não vai querer deixar.</p>  
-    </section>
-
-    <section class="card-section">
-        <div class="quiz">
-            <div class="card">
-                <div class="texto-card">
-                    <p>Outlander é uma série cheia de aventuras e romance, diferentes períodos históricos e culturas. Você conhece bem essa série? Faça o quiz abaixo para testar seus conhecimentos!</p>
-                </div>
-                <br>
-                <h4>Quiz: Quanto você conhece Outlander?</h4>
-                <form id="quizForm">
-                    <br>
-                    <p>1. Em que século Claire Randall foi transportada?</p>
-                    <label><input type="radio" name="q1" value="17"> 17º século</label><br>
-                    <label><input type="radio" name="q1" value="18"> 18º século</label><br>
-                    <label><input type="radio" name="q1" value="19"> 19º século</label><br>
-                    
-                    <p>2. Qual é o nome do marido de Claire no século XVIII?</p>
-                    <label><input type="radio" name="q2" value="Frank"> Frank</label><br>
-                    <label><input type="radio" name="q2" value="Jamie"> Jamie</label><br>
-                    <label><input type="radio" name="q2" value="Dougal"> Dougal</label><br>
-                    
-                    <p>3. Qual a época em que Claire era enfermeira?</p>
-                    <label><input type="radio" name="q3" value="Segunda Guerra Mundial"> Segunda Guerra Mundial</label><br>
-                    <label><input type="radio" name="q3" value="Primeira Guerra Mundial"> Primeira Guerra Mundial</label><br>
-                    <label><input type="radio" name="q3" value="Guerra Civil Americana"> Guerra Civil Americana</label><br>
-                    
-                    <input type="submit" value="Enviar Respostas">
-                </form>
-            </div>
+    
+    <section class="sinopse">
+        <img src="./assets/1.png" alt="OutLand">
+        <div class="imagem">
+            <img src="./assets/14.jpeg" alt="OutLand">
         </div>
-    </section>
+        <p>Outland é uma jornada épica que transcende o tempo e o espaço. Mergulhe em uma história onde passado e
+            presente colidem, explorando o poder avassalador do amor e a força da sobrevivência em um mundo onde as
+            regras mudam a cada passo. Acompanhe Claire Randall, uma mulher do século XX, que é misteriosamente
+            transportada para a Escócia do século XVIII. Em meio a guerras, paixões e intrigas, ela descobre que o
+            destino pode ser tão imprevisível quanto o próprio tempo. Prepare-se para se perder em paisagens
+            deslumbrantes, tramas intensas e personagens inesquecíveis. Outland é mais do que uma série; é uma viagem
+            que você não vai querer deixar.</p>
+            <section class="video-section">
+                <video controls>
+                    <source src="./assets/10.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+            </section>
+             <!-- Botão Assista a Série -->
+             <div class="btn-container">
+                 <a href="https://www.netflix.com/search?q=out&jbv=70285581" class="btn-serie">Assista a Série</a>
+             </div>
+             <div class="temporadas">
+                <h2>Temporadas</h2>
+                    <div class="temporadas" data-link="https://www.netflix.com/watch/80103583?trackId=200257859">
+                        <img src="./assets/01.png" alt="temporadas">
+                        <p>1° Temporada</p>
+                    </div>
+                    <div class="temporadas" data-link="https://www.netflix.com/watch/80103599?trackId=200257859">
+                        <img src="./assets/02.png" alt="temporadas">
+                        <p>2° Temporada</p>
+                    </div>
+                    <div class="temporadas" data-link="https://www.netflix.com/watch/80191821?trackId=255824129">
+                        <img src="./assets/03.png" alt="temporadas">
+                        <p>3° Temporada</p>
+                    </div>
+                    <div class="temporadas" data-link="https://www.netflix.com/watch/80225660?trackId=200257859">
+                        <img src="./assets/04.png" alt="temporadas">
+                        <p>4° Temporada</p>
+                    </div>
+                    <div class="temporadas" data-link="https://www.netflix.com/watch/81214274?trackId=200257859">
+                        <img src="./assets/05.png" alt="temporadas">
+                        <p>5° Temporada</p>
+                    </div>
+                    <div class="temporadas" data-link="https://netflix.com/watch/81571981?trackId=200257859">
+                        <img src="./assets/06.png" alt="temporadas">
+                        <p>6° Temporada</p>
+                    </div>
+                    <div class="temporadas" data-link="https://www.netflix.com/watch/81692348?trackId=200257859">
+                        <img src="./assets/07.png" alt="temporadas">
+                        <p>7° Temporada</p>
+                    </div>                    
+                </section>
+            </div>
 
+        </section>
     <footer>
         <p>© 2024 As Melhores Séries. Todos os direitos reservados.</p>
     </footer>
 </body>
+
 </html>
