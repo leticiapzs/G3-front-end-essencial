@@ -412,7 +412,7 @@ button.next {
         margin-left: 1.3px;
     }
 
-    .home {
+    .home:hover {
         font-size: 0.9rem;
     }
 
