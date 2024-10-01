@@ -141,7 +141,7 @@ video {
 .container-temporadas h2 {
     color: #f4f3f9;
     margin-top: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     font-size: 3rem;
 }
 /* Estilo do rodapé */
@@ -187,8 +187,8 @@ footer {
     .contato:hover {
         font-size: 0.9rem;
     }
-    .temporadas h2 {
-        font-size: 1rem;
+    .container-temporadas h2 {
+        font-size: 1.5rem;
     }
     .sinopse p {
         font-size: 1rem;
