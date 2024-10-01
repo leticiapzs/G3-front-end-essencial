@@ -424,18 +424,6 @@ button.next {
         font-size: 0.9rem;
     }
 
-    .cards {
-        flex-direction: column;
-    }
-
-    .card {
-        width: 80%;
-    }    
-
-    .card p {
-       font-size: 0.8rem;
-    }
-
     .rodape {
         height: auto;
         font-size: 0.6rem;
@@ -443,6 +431,14 @@ button.next {
     }
     .sinopse {
         font-size: 0.5rem;
+    }
+
+    .carrossel {
+        width: 90%;
+    }
+
+    .carrossel h3 {
+        font-size: 1.2rem;
     }
 
     .elenco-carousel {
@@ -478,10 +474,6 @@ button.next {
     }
 
 
-
-
-
-
     .wandinha-details {
         padding: 15px;
         margin: 10px;
@@ -495,9 +487,6 @@ button.next {
     .separator {
         height: 40px;
     }
-
-
-
 
     .wandinha-dance {
         padding: 15px;
@@ -525,5 +514,9 @@ button.next {
     .informacao-item {
         margin-right: 0;
         margin-bottom: 20px;
+    }
+
+    .noticias-container {
+        flex-direction: column;
     }
 }
