@@ -10,6 +10,6 @@ temporadas.forEach(temporadas => {
         // Obtém o link associado à categoria a partir do atributo 'data-link'
         const link = temporadas.getAttribute('data-link');
         // Redireciona o usuário para o link ao clicar na categoria
-        window.location.href = link;
+        window.open(link, '_blank');
     });
 });

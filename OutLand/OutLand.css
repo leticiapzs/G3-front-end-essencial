@@ -88,10 +88,12 @@ video {
     box-shadow: 0 1px 3px #bdbcbc1a;
     text-align: center;
 }
+
 .imagem {
     width: 100%;
     align-content: center;
 }
+
 .sinopse img {
     width: 55%;
     align-content: center;
@@ -118,22 +120,25 @@ video {
     text-decoration: none;
     background-color: #807c1e;
     color: white;
-    padding: 30px 80px;
     border-radius: 5px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     cursor: pointer;
+    padding: 1rem;
 }
 
 .btn-serie:hover, .btn-aventura:hover {
     background-color: #3d3f13;
 }
+
 .temporadas{
     margin-bottom: 10%;
 }
+
 .temporadas img {
     width: 60%;
+    cursor: pointer;
 }
-.temporadas h2 {
+.container-temporadas h2 {
     color: #f4f3f9;
     margin-top: 10%;
     margin-bottom: 5%;
@@ -187,21 +192,26 @@ footer {
     }
     .sinopse p {
         font-size: 1rem;
-    }    }
+    }    
+
     .sinopse {
         margin-left: 5%;
         width: 50%;
         text-align: center;
     }
+
     .container1 {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .btn-serie, .btn-aventura {
         padding: 10px 20px;
         font-size: 0.5rem;
     }
+
     footer {
         font-size: 0.5rem; /* Tamanho da fonte */
     }
+}   
