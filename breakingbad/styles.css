@@ -13,19 +13,19 @@ a {
 
 .topo {
     width: 100%;
-    height: auto; /* Ajustado para auto */
+    height: auto; 
     background-color: #343a40;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 3px solid #212529;
     box-shadow: 0 4px 6px #343a40;
-    padding: 1rem; /* Adicionado padding */
+    padding: 1rem; 
 }
 
 .topo img {
     width: 15%;
-    max-width: 150px; /* Limitar a largura */
+    max-width: 150px; 
 }
 
 ul {
@@ -94,7 +94,7 @@ li:hover {
 .serie {
     background-image: url('./images/fundobb.jpg'); 
     background-size: cover; 
-    height: auto; /* Ajustado para auto */
+    height: auto; 
     width: 100%;
     background-position: center; 
     background-repeat: no-repeat; 
