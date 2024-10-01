@@ -26,7 +26,7 @@ Você precisa de um navegador moderno para visualizar a página corretamente.
 ## 👥 Contribuidores
 Este projeto foi desenvolvido por:
 
-- **Lorrayne Morais** 
+- **Lorrayne Morais** [LorrayneMorais](https://github.com/LorrayneMorais)
 - **Ana Luísa Lobo** 
 - **Frederico Fernandes** 
 - **Leticia Peixoto**
