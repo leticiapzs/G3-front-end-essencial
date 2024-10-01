@@ -66,7 +66,7 @@ li {
 }
 
 .fundoThem img {
-    margin: -3%;
+    /* margin: -3%; */
     line-height: 1.5;
     display: block;
     margin-left: auto;
@@ -104,6 +104,10 @@ li {
     text-align: center;
 }
 
+.fundoThem p {
+    margin-bottom: 3vh;
+    
+}
 .card p {
     font-size: 150%;
     color: #e9ecef;
