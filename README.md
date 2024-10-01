@@ -29,7 +29,7 @@ Este projeto foi desenvolvido por:
 - **Lorrayne Morais** - [LorrayneMorais](https://github.com/LorrayneMorais)
 - **Ana Luísa Lobo** - [Ana Luísa Lobo](https://github.com/anafortuna)
 - **Frederico Fernandes** - [Frederico Fernandes](https://github.com/FFred-Fernandes)
-- **Leticia Peixoto** - [leticiapzs](https://github.com/leticiapzs)
+- **Leticia Peixoto** - [Letícia Peixoto](https://github.com/leticiapzs)
 - **Bruna Coelho** - [Bruna Coelho](https://github.com/brunacmedeiros)
 - **Yuri Campos** - [Yuri Campos](https://github.com/YuriCampos889)
 
