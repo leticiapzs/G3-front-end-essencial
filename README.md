@@ -26,12 +26,12 @@ Você precisa de um navegador moderno para visualizar a página corretamente.
 ## 👥 Contribuidores
 Este projeto foi desenvolvido por:
 
-- **Lorrayne Morais** [LorrayneMorais](https://github.com/LorrayneMorais)
-- **Ana Luísa Lobo** 
-- **Frederico Fernandes** 
-- **Leticia Peixoto**
-- **Bruna Coelho** 
-- **Yuri Campos**
+- **Lorrayne Morais** - [LorrayneMorais](https://github.com/LorrayneMorais)
+- **Ana Luísa Lobo** - [Ana Luísa Lobo](https://github.com/anafortuna)
+- **Frederico Fernandes** - [Frederico Fernandes](https://github.com/FFred-Fernandes)
+- **Leticia Peixoto** - [leticiapzs](https://github.com/leticiapzs)
+- **Bruna Coelho** - [Bruna Coelho](https://github.com/brunacmedeiros)
+- **Yuri Campos** - [Yuri Campos](https://github.com/YuriCampos889)
 
 ## 📜 Licença
 Este projeto é licenciado sob a [MIT License](LICENSE).
